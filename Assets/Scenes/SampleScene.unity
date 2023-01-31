@@ -1090,7 +1090,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: {fileID: 376730521}
   clickSound: {fileID: 1728562248}
-  button: {fileID: 1815511880}
 --- !u!111 &1815511884
 Animation:
   m_ObjectHideFlags: 0
@@ -1295,6 +1294,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2380301320926970691, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2380301320926970691, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.15312389
+      objectReference: {fileID: 0}
+    - target: {fileID: 2380301320926970691, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.15312389
+      objectReference: {fileID: 0}
+    - target: {fileID: 2380301320926970691, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.8773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 2380301320926970691, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4280756192
+      objectReference: {fileID: 0}
     - target: {fileID: 2380301320926970701, guid: 5ddcae24763a24c3c806550111d99dbf, type: 3}
       propertyPath: m_Name
       value: CounterDigitsText
@@ -1308,6 +1327,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 273136536}
     m_Modifications:
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.21813813
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.21813813
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.8113208
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281874639
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595921819404109791, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 4880325800931270049, guid: 592fa3aac4718475b83fd130bcec2d18, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

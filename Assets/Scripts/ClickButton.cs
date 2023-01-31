@@ -13,7 +13,6 @@ public class ClickButton : MonoBehaviour
     private bool unpressed;
     [SerializeField] private TextMeshProUGUI counter;
     [SerializeField] private AudioSource clickSound;
-    [SerializeField] private Button button;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,26 +21,31 @@ public class ClickButton : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
+        /*
+        *  increase 'value' variable and make it a string to be able to display it on the screen
+        */
         if (pressed)
         {
             ++value;
             counter.text = value.ToString();
         }
         
-        
     }
+    
 
     public void IncreaseCounter()
     {
+        /*
+        *  + alternate 'pressed' variable to be able to stop and continue counting
+        *  + play sound when button is clicked
+        */
         clickSound.Play();
         pressed = !pressed;
     }
-    
-    public int getValue()
-    {
-        return value;
-    }
+
+
+    // background taken from https://www.freepik.com/free-photos-vectors/smooth-background
     
     
 }
